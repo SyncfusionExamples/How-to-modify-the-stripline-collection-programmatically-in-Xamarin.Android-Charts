@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SimpleSample"
+            xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+             x:Class="SimpleSample.MainPage">
+    <!--<ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Picker
+        Title="Remove or Modify Striplines" SelectedIndexChanged="picker_SelectedIndexChanged" HorizontalOptions="FillAndExpand" 
+        TitleColor="Red">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Insert Striplines</x:String>
+                            <x:String>Remove Striplines</x:String>
+                            <x:String>RemoveAt Striplines</x:String>
+                            <x:String>Add Striplines</x:String>
+                            <x:String>Clear Stripline</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+
+            </StackLayout>
+            <chart:SfChart HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="chart">
+                <chart:SfChart.Title>
+                    <chart:ChartTitle Text="Temperature Flow"/>
+                </chart:SfChart.Title>
+                <chart:SfChart.PrimaryAxis>
+                    <chart:CategoryAxis>
+                        <chart:CategoryAxis.Title>
+                            <chart:ChartAxisTitle Text="Days"/>
+                        </chart:CategoryAxis.Title>
+                    </chart:CategoryAxis>
+                </chart:SfChart.PrimaryAxis>
+                <chart:SfChart.SecondaryAxis>
+                    <chart:NumericalAxis  x:Name="numericalAxis" >
+                        <chart:NumericalAxis.Title>
+                            <chart:ChartAxisTitle Text="Temperature in Celsius"/>
+                        </chart:NumericalAxis.Title>
+                        <chart:NumericalAxis.StripLines>
+                            <chart:NumericalStripLine x:Name="numericalStripLine" Start="23" Width ="5" Text="High Temperature" FillColor="LightGreen">
+                                <chart:NumericalStripLine.LabelStyle>
+                                    <chart:ChartStripLineLabelStyle FontSize="10" LabelFormat="#'°C'"/>
+                                </chart:NumericalStripLine.LabelStyle>
+                            </chart:NumericalStripLine>
+                        </chart:NumericalAxis.StripLines>
+                    </chart:NumericalAxis>
+                </chart:SfChart.SecondaryAxis>
+                <chart:SfChart.Series>
+                    <chart:SplineSeries x:Name="series" ItemsSource="{Binding Data}" XBindingPath="XValue" YBindingPath="YValue" Label="Column Chart" Color="Brown" EnableTooltip="True">
+                    </chart:SplineSeries>
+                </chart:SfChart.Series>
+            </chart:SfChart>
+        </StackLayout>
+    </ContentPage.Content>-->
+
+</ContentPage>

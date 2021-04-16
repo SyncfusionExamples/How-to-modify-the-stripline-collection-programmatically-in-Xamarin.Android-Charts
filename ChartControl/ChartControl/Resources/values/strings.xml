@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ChartControl</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="action_array">
+      <item>Insert</item>
+      <item>Remove</item>
+      <item>Remove at 0th Index</item>
+      <item>Add</item>
+      <item>Clear</item>
+    </string-array>
+</resources>
